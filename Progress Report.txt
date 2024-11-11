@@ -1,5 +1,6 @@
 What is the hardest part of the project that you’ve encountered so far?
-
+    - The harderst part so far of the project has been finding data and deciding which 
+    time intervals to use (days,months, years).
 What are your initial insights?
 
 Are there any concrete results you can show at this point? If not, why not?
