@@ -1,0 +1,15 @@
+What is the hardest part of the project that you’ve encountered so far?
+    - The harderst part so far of the project has been finding data and deciding which 
+    time intervals to use (days,months, years).
+What are your initial insights?
+
+Are there any concrete results you can show at this point? If not, why not?
+
+Going forward, what are the current biggest problems you’re facing?
+
+Do you think you are on track with your project? If not, what parts do you need to
+dedicate more time to?
+
+Given your initial exploration of the data, is it worth proceeding with your project,
+why? If not, how are you going to change your project and why do you think it’s
+better than your current results
