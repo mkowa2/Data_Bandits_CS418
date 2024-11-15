@@ -1,8 +1,20 @@
+Introduction:
+For our project, we are aiming to see if weather conditions affect the price of corn in the US, 
+specifically looking at the Corn Belt which is located in the Midwest. One of our datasets comes 
+from USDA shows the production of corn from 00'-24'. We used this dataset to determine the top 
+producers within the US. Following that we have a US Weather dataset from Kaggle that shows the 
+daily weather condtions all over the Untied States from 92'-21'. We used this data to determine 
+the weather conditions in the Corn Belt which is the area we are observing. Lastly, we had a dataset 
+that covered the price of corn and it's fluctuations. Some of our visualizations include maps of corn 
+and weather data as well as charts showing weather and price changes. 
+
 What is the hardest part of the project that you’ve encountered so far?
     - The harderst part so far of the project has been finding data and deciding which 
     time intervals to use (days,months, years).
 What are your initial insights?
-
+    A few insights that we have seen so far are that the major corn producers in the 
+    United States are located in the Midwest, which includes the states Iowa, Illinois, Nebraska, and Minnesota.
+    In addition, 
 Are there any concrete results you can show at this point? If not, why not?
 
 Going forward, what are the current biggest problems you’re facing?
