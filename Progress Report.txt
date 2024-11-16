@@ -8,6 +8,15 @@ the weather conditions in the Corn Belt which is the area we are observing. Last
 that covered the price of corn and it's fluctuations. Some of our visualizations include maps of corn 
 and weather data as well as charts showing weather and price changes. 
 
+Changes:
+For the most part, we haven't changed much with our project. We are still focusing on corn and the prices with 
+relation to weather. We added a few data sets like the US_GeoCode in order to find longitude and lattitude.
+Initally we found a data set that contained corn futures. After cleaning it and processing it we discovered that
+it onyl contains ranges of prices instead of actual prices. This is importnat because if a price changes throughout the
+market day but returns to the original price, the range will be 0. We ended up finding a new dataset that we plan to use in the future
+that contains highs and lows for each market day. 
+
+
 What is the hardest part of the project that you’ve encountered so far?
     - The harderst part so far of the project has been finding data and deciding which 
     time intervals to use (days,months, years).
