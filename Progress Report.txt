@@ -23,15 +23,24 @@ the 2024 price is greater than the 2000 price. The test resulted in a T-statisti
 and a P-value of 5.27e-18. This value is extremly low compared to the aplha level of .05. As a reuslt we reject the null
 hypothesis, conlcuding that the price of corn in 2024 is greater than in 2000. 
 
+ML Analysis:
+
 
 
 What is the hardest part of the project that you’ve encountered so far?
-    - The harderst part so far of the project has been finding data and deciding which 
-    time intervals to use (days,months, years).
+    The harderst part so far of the project has been finding data and deciding which 
+    time intervals to use (days,months, years). The reason being because granular data doesn't necessarly
+    show long term trends or correlations. On the other hand, aggregating the data to a yearly intervals can cause a loss
+    of importnat nuances. We decided to balance the two and stick with monthly intervals for our weather
+    in order to better represent our findings. 
+
 What are your initial insights?
     A few insights that we have seen so far are that the major corn producers in the 
     United States are located in the Midwest, which includes the states Iowa, Illinois, Nebraska, and Minnesota.
-    In addition, 
+    These states represent majortiy of the production of corn within the US, which means their supply has a
+    significant relation to the price. We have also seen that the price of corn has been following an upward trend since 2000. 
+    Finally, from our ML we were able to see changes of prices when there was a greater than average difference in the weather for said month. 
+    
 Are there any concrete results you can show at this point? If not, why not?
 
 Going forward, what are the current biggest problems you’re facing?
