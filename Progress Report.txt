@@ -12,16 +12,16 @@ Changes:
 For the most part, we haven't changed much with our project. We are still focusing on corn and the prices with 
 relation to weather. We added a few data sets like the US_GeoCode in order to find longitude and lattitude.
 Initally we found a data set that contained corn futures. After cleaning it and processing it we discovered that
-it onyl contains ranges of prices instead of actual prices. This is importnat because if a price changes throughout the
-market day but returns to the original price, the range will be 0. We ended up finding a new dataset that we plan to use in the future
-that contains highs and lows for each market day. 
+it only contains, for every day, ranges between highest and lower price instead of actual prices. This is importnat because if a price changes throughout the
+market day but returns to the original price, the value contained in the dataset won't be 0. We ended up finding a new dataset that we plan to use in the future
+that contains opening and closing prices as well as highest and lowest ones, alongside a couple other less relevant insights. 
 
 Hypothesis:
 For our hypothesis test we simply wanted to see if the 2024 avg. price of corn was greater than the 2000 avg. price. 
-Our null hypothesis was that the 2024 price is less than or equal to the 2000 price, and our alternative was that
+Our null hypothesis was that the 2024 price is less than or equal to the 2000 price, and our alternative one was that
 the 2024 price is greater than the 2000 price. The test resulted in a T-statistic of 30.88
-and a P-value of 5.27e-18. This value is extremly low compared to the aplha level of .05. As a reuslt we reject the null
-hypothesis, conlcuding that the price of corn in 2024 is greater than in 2000. 
+and a P-value of 5.27e-18. This value is extremely low compared to a confidence level of .05. As a reuslt we reject the null
+hypothesis, concluding that the price of corn in 2024 is greater than in 2000, as expected. 
 
 ML Analysis:
 
@@ -38,7 +38,7 @@ What are your initial insights?
     A few insights that we have seen so far are that the major corn producers in the 
     United States are located in the Midwest, which includes the states Iowa, Illinois, Nebraska, and Minnesota.
     These states represent majortiy of the production of corn within the US, which means their supply has a
-    significant relation to the price. We have also seen that the price of corn has been following an upward trend since 2000. 
+    significant relation to the price. We have also seen that the price of corn has been following an inconsistent yet significant upward trend since 2000. 
     Finally, from our ML we were able to see changes of prices when there was a greater than average difference in the weather for said month. 
     
 Are there any concrete results you can show at this point? If not, why not?
