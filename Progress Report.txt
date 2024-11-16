@@ -44,9 +44,11 @@ What are your initial insights?
 Are there any concrete results you can show at this point? If not, why not?
     Yes our hypothesis test has shown that the price of corn has increased.
     In addition, our ML has shows changes in price in relation to big 
+
 Going forward, what are the current biggest problems you’re facing?
-    The biggest problem for us now will be to merge the new price dataset that we found. For the most part our logic will still be the same,
-    and we will be able to see the trends of changes in prices more clearly.
+    The biggest problem for us now will be to merge the new price dataset that we found. For the most part 
+    our logic will still be the same, and we will be able to see the trends of changes in prices more clearly.
+
 Do you think you are on track with your project? If not, what parts do you need to
 dedicate more time to?
     We believe that we are on track for our project. We have all out data sets and we have a structured baseline. What we need to dedicate more time to now is 
@@ -57,4 +59,7 @@ Given your initial exploration of the data, is it worth proceeding with your pro
 why? If not, how are you going to change your project and why do you think it’s
 better than your current results
     Yes we think it is worth proceeding with the project. The data and our initatl thoughts do show
+    that there are trends between the weather and corn prices. Further down the line 
+    we might be able to see the relation that weather has on the corn production, and how that affects the price of corn.
+
 
