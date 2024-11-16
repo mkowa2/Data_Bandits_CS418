@@ -16,6 +16,14 @@ it onyl contains ranges of prices instead of actual prices. This is importnat be
 market day but returns to the original price, the range will be 0. We ended up finding a new dataset that we plan to use in the future
 that contains highs and lows for each market day. 
 
+Hypothesis:
+For our hypothesis test we simply wanted to see if the 2024 avg. price of corn was greater than the 2000 avg. price. 
+Our null hypothesis was that the 2024 price is less than or equal to the 2000 price, and our alternative was that
+the 2024 price is greater than the 2000 price. The test resulted in a T-statistic of 30.88
+and a P-value of 5.27e-18. This value is extremly low compared to the aplha level of .05. As a reuslt we reject the null
+hypothesis, conlcuding that the price of corn in 2024 is greater than in 2000. 
+
+
 
 What is the hardest part of the project that you’ve encountered so far?
     - The harderst part so far of the project has been finding data and deciding which 
