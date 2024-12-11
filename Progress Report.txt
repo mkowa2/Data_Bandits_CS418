@@ -1,0 +1,65 @@
+Introduction:
+For our project, we are aiming to see if weather conditions affect the price of corn in the US, 
+specifically looking at the Corn Belt which is located in the Midwest. One of our datasets comes 
+from USDA shows the production of corn from 00'-24'. We used this dataset to determine the top 
+producers within the US. Following that we have a US Weather dataset from Kaggle that shows the 
+daily weather condtions all over the Untied States from 92'-21'. We used this data to determine 
+the weather conditions in the Corn Belt which is the area we are observing. Lastly, we had a dataset 
+that covered the price of corn and it's fluctuations. Some of our visualizations include maps of corn 
+and weather data as well as charts showing weather and price changes. 
+
+Changes:
+For the most part, we haven't changed much with our project. We are still focusing on corn and the prices with 
+relation to weather. We added a few data sets like the US_GeoCode in order to find longitude and lattitude.
+Initally we found a data set that contained corn futures. After cleaning it and processing it we discovered that
+it only contains, for every day, ranges between highest and lower price instead of actual prices. This is importnat because if a price changes throughout the
+market day but returns to the original price, the value contained in the dataset won't be 0. We ended up finding a new dataset that we plan to use in the future
+that contains opening and closing prices as well as highest and lowest ones, alongside a couple other less relevant insights. 
+
+Hypothesis:
+For our hypothesis test we simply wanted to see if the 2024 avg. price of corn was greater than the 2000 avg. price. 
+Our null hypothesis was that the 2024 price is less than or equal to the 2000 price, and our alternative one was that
+the 2024 price is greater than the 2000 price. The test resulted in a T-statistic of 30.88
+and a P-value of 5.27e-18. This value is extremely low compared to a confidence level of .05. As a reuslt we reject the null
+hypothesis, concluding that the price of corn in 2024 is greater than in 2000, as expected. 
+
+ML Analysis:
+
+
+
+What is the hardest part of the project that you’ve encountered so far?
+    The harderst part so far of the project has been finding data and deciding which 
+    time intervals to use (days,months, years). The reason being because granular data doesn't necessarly
+    show long term trends or correlations. On the other hand, aggregating the data to a yearly intervals can cause a loss
+    of importnat nuances. We decided to balance the two and stick with monthly intervals for our weather
+    in order to better represent our findings. 
+
+What are your initial insights?
+    A few insights that we have seen so far are that the major corn producers in the 
+    United States are located in the Midwest, which includes the states Iowa, Illinois, Nebraska, and Minnesota.
+    These states represent majortiy of the production of corn within the US, which means their supply has a
+    significant relation to the price. We have also seen that the price of corn has been following an inconsistent yet significant upward trend since 2000. 
+    Finally, from our ML we were able to see changes of prices when there was a greater than average difference in the weather for said month. 
+
+Are there any concrete results you can show at this point? If not, why not?
+    Yes our hypothesis test has shown that the price of corn has increased.
+    In addition, our ML has shows changes in price in relation to big 
+
+Going forward, what are the current biggest problems you’re facing?
+    The biggest problem for us now will be to merge the new price dataset that we found. For the most part 
+    our logic will still be the same, and we will be able to see the trends of changes in prices more clearly.
+
+Do you think you are on track with your project? If not, what parts do you need to
+dedicate more time to?
+    We believe that we are on track for our project. We have all out data sets and we have a structured baseline. What we need to dedicate more time to now is 
+    creating a more complex analysis that ties all our data in together. As of now most of our analysis has been on indivudaul sets and then we mereged the prices in 
+    together with the weather. Moving forward we will try to tie in monthly production into this, and possible predict the price depending on certain weather occurances. 
+
+Given your initial exploration of the data, is it worth proceeding with your project,
+why? If not, how are you going to change your project and why do you think it’s
+better than your current results
+    Yes we think it is worth proceeding with the project. The data and our initatl thoughts do show
+    that there are trends between the weather and corn prices. Further down the line 
+    we might be able to see the relation that weather has on the corn production, and how that affects the price of corn.
+
+
